@@ -1,6 +1,10 @@
+*{
+  margin: 0px;
+}
+
 .slide1{
   height:100vh;
-  background-image:url("../img/IMG_2138.JPG");
+  background-image:url("../img/IMG_2139.JPG");
   background-size:cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -8,7 +12,7 @@
 
 .slide2{
   height:100vh;
-  background-image:url("../img/IMG_2138.JPG");
+  background-image:url("../img/IMG_2139.JPG");
   background-size:cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -16,8 +20,16 @@
 
 .slide3{
   height:100vh;
-  background-image:url("../img/IMG_2138.JPG");
+  background-image:url("../img/IMG_2139.JPG");
   background-size:cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
+}
+
+#theCarousel .carousel-control{
+  background: none;
+}
+
+.body{
+  height: 100vh;
 }
