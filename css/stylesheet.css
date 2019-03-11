@@ -1,83 +1,152 @@
-.slide1{
-  height:100vh;
-  background-image:url("../img/IMG_2139.JPG");
-  background-size:cover;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
+@font-face {
+  font-family: IBMPlexSans-Bold;
+  src: url('../fonts/ibmplexsans/IBMPlexSans-Bold.ttf');
 }
 
-.slide2{
-  height:100vh;
-  background-image:url("../img/IMG_2139.JPG");
-  background-size:cover;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
+@font-face {
+  font-family: IBMPlexSans-SemiBold;
+  src: url('../fonts/ibmplexsans/IBMPlexSans-SemiBold.ttf');
 }
 
-.slide3{
-  height:100vh;
-  background-image:url("../img/IMG_2139.JPG");
-  background-size:cover;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-}
-
-#theCarousel .carousel-control{
-  background: none;
-}
-
-.body{
+.header {
   height: 100vh;
+  background: url('../img/IMG_2139.jpg');
+  background-repeat: no-repeat;
+  background-size: cover !important;
+  background-attachment: fixed;
+  text-align:center;
+  overflow: hidden;
 }
 
-.navbar-brand img{
-  display: block;
-  position: relative;
+.header h1{
+  position:relative;
   top: 50%;
-  left: 50%;
-  height: 200%;
-  transform: translate(-50%, -50%);
+  font-family: IBMPlexSans-Bold;
+  font-size: 15em;
+  color: #000000;
 }
 
-.navbar {
-  background-color: rgba(0, 0, 0, 0.5);
-  border: none;
+.header h1 span {
+  color: #FFCE00;
 }
 
-.nav a{
-  color:#E6E6E6 !important;
+.Events {
+  text-align: center;
+  width: auto;
+}
+.Title {
+  font-family: IBMPlexSans-Bold;
+  font-size: 5em;
+  text-align: center;
+  margin-top: 50px;
 }
 
-.nav a :hover{
-  transition-duration: 0.5s;
-  color:white !important;
+.Date{
+  text-align: right;
+  font-family: IBMPlexSans-Bold;
+  font-size: 50px;
+  padding: 5vh;
+  padding-right: 10vw;
+  line-height: 1.2;
 }
 
-.active1{
-  background-color: rgba(15, 15, 15, 0.5) !important;
-}
-.nav li :hover{
-  transition-duration: 0.5s;
-  background-color: rgba(15, 15, 15, 0.5) !important;
-  color:white !important;
-}
-
-.active1 a{
-  color: white !important;
+.EventDescription {
+  text-align: left;
+  font-family: IBMPlexSans-Bold;
+  font-size: 50px;
+  padding: 5vh;
+  padding-left: 5vw;
+  line-height: 1.2;
 }
 
-.navbar-collapse {
-  border: none;
+hr{
+  position: relative;
+  display: block;
+  border-top: 1px solid #ff6600;
+  border-bottom: 1px solid #ff6600;
+  width: 50%;
+  left: 25%;
 }
 
-.navbar-default .navbar-toggle,
-.navbar-default .navbar-toggle:hover,
-.navbar-default .navbar-toggle:focus {
-  background-color: transparent;
-  border: none;
+.event {
+  border-left: 2px solid #ff6600;
 }
 
+.EventDescriptionText{
+  font-family: IBMPlexSans-SemiBold;
+  font-size: 20px;
+  text-align: left;
+  padding-left: 5vw;
+  color: #cc5200;
+}
 
-.icon-bar{
-  border: 1.5px solid white;
+.member{
+  height: 50vh;
+}
+
+.musician{
+  height: 50vh;
+}
+
+.musicianimg{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.7)) ,  url('https://ak5.picdn.net/shutterstock/videos/15915475/thumb/1.jpg');
+  background-repeat: no-repeat;
+  background-position:center center;
+  background-size: cover;
+  background-attachment:scroll;
+}
+
+.memberimg{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.7)) , url('http://www.calstatela.edu/sites/default/files/header-images/police_clery.jpg');
+  background-repeat: no-repeat;
+  background-position:center center;
+  background-size: cover;
+  background-attachment:scroll;
+}
+
+.memberimg .Title,
+.musicianimg .Title {
+  position:relative;
+  color:white;
+  top:30%;
+  font-size: 100px;
+}
+
+.memberinfo {
+  background-color: black;
+}
+
+.musicianinfo {
+  background-color: black;
+}
+
+.DescriptionText {
+  padding-top: 12%;
+  font-family: IBMPlexSans-SemiBold;
+  font-size: 30px;
+  line-height: 1.2;
+  text-align: left;
+  padding-left: 5vw;
+  color: #cc5200;
+}
+
+.mbutton {
+  margin-left: 5vw;
+  margin-top: 2vh;
+  font-family: IBMPlexSans-SemiBold;
+  font-size: 35px;
+  padding: 1%;
+  color:white;
+  background-color: black;
+}
+
+.mbutton:hover{
+  margin-left: 5vw;
+  margin-top: 2vh;
+  font-family: IBMPlexSans-SemiBold;
+  font-size: 35px;
+  padding: 1%;
+  color:black;
+  background-color: white;
+  -webkit-transition-duration: 0.5s;
 }

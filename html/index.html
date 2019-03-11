@@ -4,96 +4,77 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width = device-width, initial-scale = 1">
-
     <title>LA MuSci</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/uikit/2.27.5/css/uikit.min.css" />
     <link href="../css/stylesheet.css" rel="stylesheet" type="text/css" />
+    <script src="http://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/2.27.5/js/uikit.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/2.27.5/js/components/parallax.js"></script>
+
   </head>
   <body>
-    <nav class="navbar navbar-default navbar-fixed-top">
-      <div class="container-fluid">
-        <!-- Brand and toggle get grouped for better mobile display -->
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed navbutton1" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand" href="#">
-            <img alt="Brand" src="../img/lamusci.png">
-          </a>
+    <div class="header" >
+      <h1 data-uk-parallax="{opacity:0.5, y: 500}"> <span>LA</span> MuSci </h1>
+    </div>
+
+    <div style="width:auto; background-color:#fff7e6; padding: 7vh;">
+
+      <h1 class="Title">Events</h1>
+
+      <br>
+      <br>
+
+      <div class="Events uk-grid">
+
+        <div class="uk-width-1-2">
+          <h2 class="Date">3/26 </h2>
+        </div>
+        <div class="event uk-width-1-2">
+          <h2 class="EventDescription">Banh Mi Fundraiser</h2>
+          <p class="EventDescriptionText">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
         </div>
 
-        <!-- Collect the nav links, forms, and other content for toggling -->
-        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-          <ul class="nav navbar-nav">
-            <li class="active1"><a class="navlinks" href="#">Home <span class="sr-only">(current)</span></a></li>
-            <li><a class="navlinks" href="#">Sign Up</a></li>
-            <li><a class="navlinks" href="#">About Us</a></li>
-            <li><a class="navlinks" href="#">Donate</a></li>
-          </ul>
-        </div><!-- /.navbar-collapse -->
-      </div><!-- /.container-fluid -->
-    </nav>
-
-    <div id="theCarousel" class="carousel slide" data-ride="carousel">
-
-      <ol class="carousel-indicators">
-        <li data-target="#theCarousel" data-slide-to="0" class="active">
-        </li>
-        <li data-target="#theCarousel" data-slide-to="1">
-        </li>
-        <li data-target="#theCarousel" data-slide-to="2">
-        </li>
-      </ol>
-
-      <div class="carousel-inner">
-
-        <div class="item active">
-          <div class="slide1"></div>
-          <div class="carousel-caption">
-            <h1>LA MuSci</h1>
-              <p>A CalstateLA Club</p>
-              <p><a href="#" class="btn btn-primary btn-sm">Get them Now</a></p>
-          </div>
+        <div class="uk-width-1-2">
+          <h2 class="Date">TBA </h2>
+        </div>
+        <div class="event uk-width-1-2">
+          <h2 class="EventDescription">First General Meeting</h2>
+          <p class="EventDescriptionText">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
         </div>
 
-        <div class="item">
-          <div class="slide2"></div>
-          <div class="carousel-caption">
-            <h1>LA MuSci</h1>
-              <p>A CalstateLA Club</p>
-              <p><a href="#" class="btn btn-primary btn-sm">Get them Now</a></p>
-          </div>
+        <div class="uk-width-1-2">
+          <h2 class="Date">TBA </h2>
         </div>
-
-        <div class="item">
-          <div class="slide3"></div>
-          <div class="carousel-caption">
-            <h1>LA MuSci</h1>
-              <p>A CalstateLA Club</p>
-              <p><a href="#" class="btn btn-primary btn-sm">Get them Now</a></p>
-          </div>
+        <div class="event uk-width-1-2">
+          <h2 class="EventDescription">Benefit Concert</h2>
+          <p class="EventDescriptionText">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
         </div>
 
       </div>
 
-      <a class="left carousel-control" href="#theCarousel" data-slide="prev">
-        <span class="glyphicon glyphicon-chevron-left"></span>
-      </a>
+    </div>
 
-      <a class="right carousel-control" href="#theCarousel" data-slide="next">
-        <span class="glyphicon glyphicon-chevron-right"></span>
-      </a>
+    <div class="SignUp uk-grid">
+      <div class="member memberimg uk-width-medium-4-10 uk-width-small-1-1">
+        <h1 class="Title">Members</h1>
+      </div>
+      <div class="member memberinfo uk-width-medium-6-10 uk-width-small-1-1">
+        <p class="DescriptionText">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        <a class="mbutton uk-button" href="#">SIGN UP ></a>
+      </div>
+      <div class="musician musicianimg uk-width-medium-4-10 uk-width-small-1-1">
+        <h1 class="Title">Musicians</h1>
+      </div>
+      <div class="musician musicianinfo uk-width-medium-6-10 uk-width-small-1-1">
+        <p class="DescriptionText">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        <a class="mbutton uk-button" href="#">SIGN UP ></a>
+      </div>
 
     </div>
 
-    <div class="body">
 
-    </div>
 
-    <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
 
   </body>
 </html>
