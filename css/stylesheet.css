@@ -218,3 +218,28 @@ hr {
   font-size: 20px;
   color:white;
 }
+
+.uk-navbar{
+  background-color: #ffe1a3;
+}
+
+.uk-navbar > a{
+  font-family: IBMPlexSans-SemiBold;
+}
+
+.uk-navbar > ul > li > a{
+  font-family: IBMPlexSans-SemiBold;
+}
+
+.uk-navbar > ul > li > a:hover{
+  background-color: #ffcb60;
+}
+
+.uk-active > a,
+.uk-active > a:hover{
+  background-color: #ffcb60 !important;
+}
+
+.uk-navbar-brand {
+  background-color: #ffe1a3 !important;
+}
