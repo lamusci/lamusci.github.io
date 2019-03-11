@@ -5,21 +5,32 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width = device-width, initial-scale = 1">
     <title>LA MuSci</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/uikit/2.27.5/css/components/sticky.min.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/uikit/2.27.5/css/uikit.min.css" />
+
     <link href="css/stylesheet.css" rel="stylesheet" type="text/css" />
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/2.27.5/js/uikit.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/2.27.5/js/components/parallax.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/2.27.5/js/components/sticky.min.js"></script>
 
   </head>
   <body>
+    <nav class="uk-navbar" data-uk-sticky>
+      <a href="#" class="uk-navbar-brand" class="uk-visible-large"> LA MuSci </a>
+      <ul class="uk-navbar-nav uk-visible-large" data-uk-scrollspy-nav="{closest: 'li'}">
+          <li class="uk-active"><a href="#events">Events</a></li>
+          <li><a href="#signup">Sign Up</a></li>
+          <li><a href="#board">Board</a></li>
+      </ul>
+      <a href="#offcanvas" class="uk-navbar-toggle uk-hidden-large" data-uk-offcanvas></a>
+    </nav>
     <div class="header" >
       <h1 data-uk-parallax="{opacity:0.5, y: 500}"> <span>LA</span> MuSci </h1>
     </div>
-
     <div style="width:auto; background-color:#fff7e6; padding: 7vh;">
 
-      <h1 class="Title">Events</h1>
+      <h1 id="events" class="Title">Events</h1>
 
       <br>
       <br>
@@ -54,7 +65,7 @@
 
     </div>
 
-    <div class="SignUp uk-grid">
+    <div id="signup" class="SignUp uk-grid">
       <div class="member memberimg uk-width-medium-4-10 uk-width-small-1-1">
         <h1 class="Title">Members</h1>
       </div>
@@ -73,17 +84,67 @@
     </div>
 
     <div class="officers">
-      <h1 class="Title"> Officers </h1>
+      <h1 id="board" class="Title"> Board </h1>
+      <hr>
       <div class="uk-grid">
-        <div class="officer uk-width-medium-1-6"></div>
-        <div class="officer uk-width-medium-1-6"></div>
-        <div class="officer uk-width-medium-1-6"></div>
-        <div class="officer uk-width-medium-1-6"></div>
-        <div class="officer uk-width-medium-1-6"></div>
-        <div class="officer uk-width-medium-1-6"></div>
+        <div class="officer uk-width-medium-1-6 uk-width-small-1-1">
+          <div class="imgwrapper">
+            <img class="officerimg" src="https://rehrealestate.com/wp-content/uploads/2015/08/facebook-default-no-profile-pic-girl.jpg">
+          </div>
+          <p class="boardname">Audrey Zhang</p>
+          <p class="boarddesc">President</p>
+        </div>
+        <div class="officer uk-width-medium-1-6">
+          <div class="imgwrapper">
+            <img class="officerimg" src="https://rehrealestate.com/wp-content/uploads/2015/08/facebook-default-no-profile-pic-girl.jpg">
+          </div>
+          <p class="boardname">Kayla Misa</p>
+          <p class="boarddesc">Vice President</p>
+        </div>
+        <div class="officer uk-width-medium-1-6">
+          <div class="imgwrapper">
+            <img class="officerimg" src="https://lh5.googleusercontent.com/-oDnbiHczcdo/VOaE0uWsvnI/AAAAAAAAAJg/GFvI08qof0g/w1290-h1290/facebook-default-no-profile-pic.jpg">
+          </div>
+          <p class="boardname">Tu Tyler Nguyen</p>
+          <p class="boarddesc">Treasurer</p>
+        </div>
+        <div class="officer uk-width-medium-1-6">
+          <div class="imgwrapper">
+            <img class="officerimg" src="https://lh5.googleusercontent.com/-oDnbiHczcdo/VOaE0uWsvnI/AAAAAAAAAJg/GFvI08qof0g/w1290-h1290/facebook-default-no-profile-pic.jpg">
+          </div>
+          <p class="boardname">Harshil Kotamreddy</p>
+          <p class="boarddesc">Secretary</p>
+        </div>
+        <div class="officer uk-width-medium-1-6">
+          <div class="imgwrapper">
+            <img class="officerimg" src="https://lh5.googleusercontent.com/-oDnbiHczcdo/VOaE0uWsvnI/AAAAAAAAAJg/GFvI08qof0g/w1290-h1290/facebook-default-no-profile-pic.jpg">
+          </div>
+          <p class="boardname">Kyle Misa</p>
+          <p class="boarddesc">Historian</p>
+        </div>
+        <div class="officer uk-width-medium-1-6">
+          <div class="imgwrapper">
+            <img class="officerimg" src="https://lh5.googleusercontent.com/-oDnbiHczcdo/VOaE0uWsvnI/AAAAAAAAAJg/GFvI08qof0g/w1290-h1290/facebook-default-no-profile-pic.jpg">
+          </div>
+          <p class="boardname">Amir Terrazas</p>
+          <p class="boarddesc">Director of Digital Marketing</p>
+        </div>
       </div>
     </div>
 
+    <div class="footer">
+      <p>&copy; 2019 by LAMuSci. All rights reserved.</p>
+    </div>
+
+    <div id="offcanvas" class="uk-offcanvas">
+      <div class="uk-offcanvas-bar">
+        <ul class="uk-nav uk-nav-offcanvas">
+            <li class="uk-active"><a href="#events">Events</a></li>
+            <li><a href="#signup">Sign Up</a></li>
+            <li><a href="#board">Board</a></li>
+        </ul>
+      </div>
+    </div>
 
 
 

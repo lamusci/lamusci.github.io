@@ -1,3 +1,4 @@
+
 @font-face {
   font-family: IBMPlexSans-Bold;
   src: url('../fonts/ibmplexsans/IBMPlexSans-Bold.ttf');
@@ -6,6 +7,11 @@
 @font-face {
   font-family: IBMPlexSans-SemiBold;
   src: url('../fonts/ibmplexsans/IBMPlexSans-SemiBold.ttf');
+}
+
+@font-face {
+  font-family: IBMPlexSans-Light;
+  src: url('../fonts/ibmplexsans/IBMPlexSans-Light.ttf');
 }
 
 .header {
@@ -149,4 +155,66 @@ hr{
   color:black;
   background-color: white;
   -webkit-transition-duration: 0.5s;
+}
+
+.imgwrapper{
+  display: inline-block;
+  position: relative;
+  width: 200px;
+  height: 200px;
+  overflow: hidden;
+  border-radius: 50%;
+  border: 2px solid #ff6600;
+}
+
+.officerimg {
+  width: auto;
+  height: 100%;
+}
+
+.officer{
+  text-align:center;
+  overflow: hidden;
+}
+
+.officers .Title {
+  padding:3vh;
+}
+
+hr {
+  position:relative;
+  border: 2px solid #ff6600;
+  width: 25%;
+  left: 37.5%;
+  margin-bottom: 5vh;
+  padding:0px;
+}
+
+.boardname{
+  font-family: IBMPlexSans-SemiBold !important;
+  font-size: 20px;
+}
+
+.boarddesc{
+  font-family: IBMPlexSans-Light !important;
+  font-size: 18px;
+}
+
+.footer{
+  background-color: black;
+  text-align: center;
+  margin-top: 10vh;
+  padding-top: 3vh;
+  padding-bottom: 3vh;
+}
+
+.footer h1{
+  font-family: IBMPlexSans-SemiBold;
+  font-size: 40px;
+}
+
+.footer p{
+  font-family: IBMPlexSans-Light;
+  font-size: 20px;
+  color:white;
 }
