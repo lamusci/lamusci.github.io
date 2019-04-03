@@ -186,6 +186,39 @@ hr{
   padding:0px;
 }
 
+.contactUs hr {
+  position:relative;
+  border: 2px solid #ff6600;
+  width: 25%;
+  left: 37.5%;
+  margin-bottom: 5vh;
+  padding:0px;
+}
+
+.contactUs .Title {
+  padding:3vh;
+  color: white;
+}
+
+.contactUs {
+  text-align: center;
+  background-color: black;
+  padding-bottom: 5vh;
+}
+
+.contactUs a {
+  color: white;
+  font-size: 40px;
+  font-family: IBMPlexSans-Bold
+}
+
+.contactUs a:hover {
+  color: gray;
+  text-decoration: none;
+  font-size: 40px;
+  font-family: IBMPlexSans-Bold
+}
+
 .officers {
   padding-left: 10%;
   padding-right: 10%;
@@ -203,7 +236,6 @@ hr{
 .footer{
   background-color: black;
   text-align: center;
-  margin-top: 10vh;
   padding-top: 3vh;
   padding-bottom: 3vh;
 }
@@ -219,16 +251,29 @@ hr{
   color:white;
 }
 
-.uk-navbar{
-  background-color: #ffe1a3;
+.uk-logo {
+  color: black;
+}
+.uk-navbar-container{
+  background-color: #ffe1a3 !important;
 }
 
-.uk-navbar > a{
-  font-family: IBMPlexSans-SemiBold;
+.uk-navbar-left > a{
+  font-family: IBMPlexSans-SemiBold !important;
 }
 
-.uk-navbar > ul > li > a{
-  font-family: IBMPlexSans-SemiBold;
+.uk-navbar-left > ul > li > a{
+  font-family: IBMPlexSans-SemiBold !important;
+}
+
+.uk-navbar-right > a{
+  font-family: IBMPlexSans-SemiBold !important;
+  color: #282828;
+}
+
+.uk-navbar-right > ul > li > a{
+  font-family: IBMPlexSans-SemiBold !important;
+  color: #282828;
 }
 
 .uk-navbar > ul > li > a:hover{
@@ -244,6 +289,10 @@ hr{
   background-color: #ffe1a3 !important;
 }
 
+.uk-nav > li > a{
+  font-family: IBMPlexSans-SemiBold !important;
+  color: white !important;
+}
 
 @media only screen and (max-width: 1600px) {
 
@@ -283,6 +332,7 @@ hr{
 
   .header h1{
     font-size: 120px;
+    top: 20%;
   }
 
   .header h1 span{
@@ -332,5 +382,26 @@ hr{
     height: 390px;
   }
 
+  .slider {
+    padding-left: 5vw;
+    padding-right: 5vw;
+    padding-top: 100px;
+  }
+
+  .navbarToggle svg{
+    color: black;
+  }
+
+  .uk-offcanvas-close svg{
+    color: white;
+  }
+
+  .contactUs .Title {
+    font-size: 50px;
+  }
+
+  .contactUs a {
+    font-size: 25px;
+  }
 
 }
