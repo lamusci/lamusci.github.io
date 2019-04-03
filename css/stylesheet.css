@@ -251,7 +251,9 @@ hr{
   color:white;
 }
 
-.uk-logo {
+.uk-logo,
+.uk-logo:hover,
+.uk-logo:focus {
   color: black;
 }
 .uk-navbar-container{
@@ -260,6 +262,7 @@ hr{
 
 .uk-navbar-left > a{
   font-family: IBMPlexSans-SemiBold !important;
+  font-size: 30px;
 }
 
 .uk-navbar-left > ul > li > a{
@@ -285,13 +288,11 @@ hr{
   background-color: #ffcb60 !important;
 }
 
-.uk-navbar-brand {
-  background-color: #ffe1a3 !important;
-}
 
 .uk-nav > li > a{
   font-family: IBMPlexSans-SemiBold !important;
   color: white !important;
+  font-size: 25px;
 }
 
 @media only screen and (max-width: 1600px) {
