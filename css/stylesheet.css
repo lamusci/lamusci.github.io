@@ -26,7 +26,7 @@
 
 .header h1{
   position:relative;
-  top: 50%;
+  top: 40%;
   font-family: IBMPlexSans-Bold;
   font-size: 15em;
   color: #000000;
@@ -48,11 +48,10 @@
 }
 
 .Date{
-  text-align: right;
+  text-align: center;
   font-family: IBMPlexSans-Bold;
   font-size: 50px;
   padding: 5vh;
-  padding-right: 10vw;
   line-height: 1.2;
 }
 
@@ -86,12 +85,14 @@ hr{
   color: #cc5200;
 }
 
-.member{
-  height: 50vh;
+.member {
+  height: 500px;
+  overflow: hidden;
 }
 
-.musician{
-  height: 50vh;
+.musician {
+  height: 500px;
+  overflow: hidden;
 }
 
 .musicianimg{
@@ -147,11 +148,6 @@ hr{
 }
 
 .mbutton:hover{
-  margin-left: 5vw;
-  margin-top: 2vh;
-  font-family: IBMPlexSans-SemiBold;
-  font-size: 35px;
-  padding: 1%;
   color:black;
   background-color: white;
   -webkit-transition-duration: 0.5s;
@@ -160,8 +156,8 @@ hr{
 .imgwrapper{
   display: inline-block;
   position: relative;
-  width: 200px;
-  height: 200px;
+  width: 150px;
+  height: 150px;
   overflow: hidden;
   border-radius: 50%;
   border: 2px solid #ff6600;
@@ -181,7 +177,7 @@ hr{
   padding:3vh;
 }
 
-hr {
+.officers hr {
   position:relative;
   border: 2px solid #ff6600;
   width: 25%;
@@ -190,6 +186,10 @@ hr {
   padding:0px;
 }
 
+.officers {
+  padding-left: 10%;
+  padding-right: 10%;
+}
 .boardname{
   font-family: IBMPlexSans-SemiBold !important;
   font-size: 20px;
@@ -215,7 +215,7 @@ hr {
 
 .footer p{
   font-family: IBMPlexSans-Light;
-  font-size: 20px;
+  font-size: 15px;
   color:white;
 }
 
@@ -242,4 +242,95 @@ hr {
 
 .uk-navbar-brand {
   background-color: #ffe1a3 !important;
+}
+
+
+@media only screen and (max-width: 1600px) {
+
+  .imgwrapper{
+    width: 150px;
+    height: 150px;
+  }
+
+  .boardname{
+    margin: 0px;
+  }
+
+  .boarddesc{
+    margin: 0px;
+    padding-bottom: 20px;
+  }
+
+  .officers {
+    text-align: center;
+  }
+
+  .officer {
+    text-align: center;
+  }
+
+  .memberimg .Title,
+  .musicianimg .Title {
+    font-size: 80px;
+  }
+
+}
+@media only screen and (max-width: 700px) {
+
+  .header {
+    background: url('../img/IMG_2138.JPG');
+  }
+
+  .header h1{
+    font-size: 120px;
+  }
+
+  .header h1 span{
+    font-size: 120px;
+  }
+
+  .imgwrapper{
+    width: 100px;
+    height: 100px;
+  }
+
+  .boardname{
+    font-size: 18px;
+    margin: 0px;
+  }
+
+  .boarddesc{
+    font-size: 15px;
+    margin: 0px;
+    padding-bottom: 20px;
+  }
+
+  .officers {
+    text-align: center;
+    padding: 0px;
+  }
+
+  .memberimg .Title,
+  .musicianimg .Title {
+    font-size: 60px;
+  }
+
+  .DescriptionText {
+    font-size: 20px;
+    line-height: 1.5;
+  }
+
+  .mbutton {
+    font-size: 25px;
+  }
+
+  .member {
+    height: 390px;
+  }
+
+  .musician {
+    height: 390px;
+  }
+
+
 }
