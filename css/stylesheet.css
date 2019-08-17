@@ -412,6 +412,11 @@ hr{
 
   .navbarToggle svg{
     color: black;
+
+  }
+
+  .navbarToggle {
+    width: 70px;
   }
 
   .uk-offcanvas-close svg{
