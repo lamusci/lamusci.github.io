@@ -16,12 +16,24 @@
 
 .header {
   height: 100vh;
+  text-align:center;
+  overflow: hidden;
+  position:relative;
+}
+
+.header::after {
+  content: "";
   background: url('../img/IMG_2139.JPG');
   background-repeat: no-repeat;
   background-size: cover !important;
   background-attachment: fixed;
-  text-align:center;
-  overflow: hidden;
+  opacity: 0.8;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;
 }
 
 .header h1{
