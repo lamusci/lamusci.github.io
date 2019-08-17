@@ -426,8 +426,19 @@ hr{
   .contactUs .Title {
     font-size: 50px;
   }
-
+  .contactUs .Title:hover {
+    font-size: 50px;
+  }
+  .contactUs .Title:focus {
+    font-size: 50px;
+  }
   .contactUs a {
+    font-size: 25px;
+  }
+  .contactUs a:hover {
+    font-size: 25px;
+  }
+  .contactUs a:focus {
     font-size: 25px;
   }
 
