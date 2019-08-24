@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width = device-width, initial-scale = 1">
+
+<!--favicon-->
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+    <link rel="manifest" href="favicon/site.webmanifest">
+
+
+    <title>LA MuSci</title>
+
+<!--css links-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.3/css/uikit.min.css" />
+    <link href="css/stylesheet.css" rel="stylesheet" type="text/css" />
+
+<!--js scripts-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.3/js/uikit-core.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.3/js/uikit-icons.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/2.27.5/js/uikit.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.3/js/components/parallax.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.3/js/components/slider-parallax.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.3/js/components/slider.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.3/js/components/slideshow.js"></script>
+
+  </head>
+  <body>
+
+<!-- navbar -->
+    <div uk-sticky="sel-target: .uk-navbar-container; cls-active: uk-navbar-sticky">
+      <nav class="uk-navbar-container" uk-navbar>
+        <div class="uk-navbar-left" uk-scrollspy-nav="scroll: true; offset: 500;">
+          <a class="uk-navbar-item uk-logo" href="#lamusci" >LA MuSci </a>
+          <img style = "height:70px;" src = "img/lamusci.png">
+        </div>
+        <div class="uk-navbar-right">
+          <ul class="uk-navbar-nav" uk-scrollspy-nav="closest: li; scroll: true; offset: 300;">
+              <li>
+                <a class = "uk-visible@m" href="#events">Events</a>
+              </li>
+              <li>
+                <a class = "uk-visible@m" href="#signup">Sign Up</a>
+              </li>
+              <li>
+                <a class = "uk-visible@m" href="#board">Board</a>
+              </li>
+              <li>
+                <a class = "uk-visible@m" href="#contactUs">Contact Us</a>
+              </li>
+              <li>
+                <a class = "navbarToggle uk-icon-link uk-hidden@m uk-dark" style="" href="#offcanvas-flip" uk-icon="icon: menu; ratio:1.5;" uk-toggle></a>
+              </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+
+<!-- header/heading -->
+    <div class="header" >
+      <h1 id="lamusci" uk-parallax="opacity:1,0.5;"> <span>LA</span> MuSci </h1>
+    </div>
+<!-- Events Section -->
+    <div style="width:auto; background-color:#fff7e6; padding: 7vh;">
+
+      <h1 id="events" class="Title">Events</h1>
+
+      <br>
+      <br>
+
+
+      <div class="Events uk-grid">
+
+        <div class="uk-width-1-2@m uk-width-1-1@s">
+          <h2 class="Date">TBA </h2>
+        </div>
+        <div class="event uk-width-1-2@m uk-width-1-1@s">
+          <h2 class="EventDescription">Banh Mi Fundraiser</h2>
+          <p class="EventDescriptionText">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        </div>
+
+        <div class="uk-width-1-2@m uk-width-1-1@s">
+          <h2 class="Date">TBA </h2>
+        </div>
+        <div class="event uk-width-1-2@m">
+          <h2 class="EventDescription">First General Meeting</h2>
+          <p class="EventDescriptionText">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        </div>
+
+        <div class="uk-width-1-2@m uk-width-1-1@s">
+          <h2 class="Date">TBA </h2>
+        </div>
+        <div class="event uk-width-1-2@m uk-width-1-1@s">
+          <h2 class="EventDescription">Benefit Concert</h2>
+          <p class="EventDescriptionText">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        </div>
+
+      </div>
+
+    </div>
+
+<!-- Members and Musicians Sign up -->
+
+    <div id="signup" class="SignUp uk-grid">
+      <div class="member memberimg uk-width-2-5@l uk-width-1-1@s">
+        <h1 class="Title">Members</h1>
+      </div>
+      <div class="member memberinfo uk-width-3-5@l uk-width-1-1@s">
+        <p class="DescriptionText">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        <a class="mbutton uk-button" href="#">SIGN UP ></a>
+      </div>
+      <div class="musician musicianimg uk-width-2-5@l uk-width-1-1@s">
+        <h1 class="Title">Musicians</h1>
+      </div>
+      <div class="musician musicianinfo uk-width-3-5@l uk-width-1-1@s">
+        <p class="DescriptionText">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        <a class="mbutton uk-button" href="https://docs.google.com/forms/d/e/1FAIpQLSeMvUe7CxH8fNzomb2hPWuQxmGUnuxIm7yeQGxJXVJuIDnqaQ/viewform">SIGN UP ></a>
+      </div>
+
+    </div>
+
+
+<!-- Officers -->
+
+    <div class="officers">
+      <h1 id="board" class="Title"> Board </h1>
+      <hr>
+
+      <!-- slider -->
+      <div class="slider uk-position-relative" uk-slider="">
+
+          <ul class="uk-slider-items uk-child-width-1-5@xl uk-child-width-1-3@l uk-child-width-1-2@s">
+              <li>
+                <div class="officer">
+                  <div class="imgwrapper">
+                    <img class="officerimg" src="img/audrey.PNG">
+                  </div>
+                  <p class="boardname">Audrey Zhang</p>
+                  <p class="boarddesc">President</p>
+                </div>
+              </li>
+              <li>
+                <div class="officer">
+                  <div class="imgwrapper">
+                    <img class="officerimg" src="img/kayla.jpg">
+                  </div>
+                  <p class="boardname">Kayla Misa</p>
+                  <p class="boarddesc">Vice President</p>
+                </div>
+              </li>
+              <li>
+                <div class="officer">
+                  <div class="imgwrapper">
+                    <img class="officerimg" src="img/tyler.PNG">
+                  </div>
+                  <p class="boardname">Tu Tyler Nguyen</p>
+                  <p class="boarddesc">Treasurer</p>
+                </div>
+              </li>
+              <li>
+                <div class="officer">
+                  <div class="imgwrapper">
+                    <img class="officerimg" src="img/harshil.jpg">
+                  </div>
+                  <p class="boardname">Harshil Kotamreddy</p>
+                  <p class="boarddesc">Secretary</p>
+                </div>
+              </li>
+              <li>
+                <div class="officer">
+                  <div class="imgwrapper">
+                    <img class="officerimg" src="img/kyle.jpg">
+                  </div>
+                  <p class="boardname">Kyle Misa</p>
+                  <p class="boarddesc">Historian</p>
+                </div>
+              </li>
+          </ul>
+
+          <a class="uk-position-center-left uk-position-small uk-hidden-hover uk-dark" href="" uk-slidenav-previous uk-slider-item="previous"></a>
+          <a class="uk-position-center-right uk-position-small uk-hidden-hover uk-dark" href="" uk-slidenav-next uk-slider-item="next"></a>
+
+      </div>
+    </div>
+
+<!-- footer/contact us -->
+
+    <div class="contactUs">
+      <h1 id="contactUs" class="Title"> Contact Us </h1>
+      <hr>
+      <a href="mailto:club.lamusci@gmail.com" data-rel="external"> Email Us > </a>
+      <br>
+      <a href="https://remind.com/join/lamusc"> Join our Remind > </a>
+      <br>
+      <a href="https://discord.gg/V2VE5Gz"> Join our Discord Server > </a>
+    </div>
+
+    <div class="footer">
+      <hr>
+      <p>&copy; 2019 by LAMuSci. All rights reserved.</p>
+    </div>
+
+    <div id="offcanvas-flip" uk-offcanvas="flip: true; overlay: true">
+      <div class="uk-offcanvas-bar">
+
+          <button class="uk-offcanvas-close" type="button" uk-close></button>
+
+          <ul class="uk-nav uk-nav-default" uk-scrollspy-nav="scroll: true">
+              <li>
+                <a href="#events">EVENTS</a>
+              </li>
+              <li>
+                <a href="#signup">SIGN UP</a>
+              </li>
+              <li>
+                <a href="#board">BOARD</a>
+              </li>
+              <li>
+                <a href="#contactUs">CONTACT US</a>
+              </li>
+
+
+          </ul>
+
+      </div>
+    </div>
+
+
+
+  </body>
+</html>
