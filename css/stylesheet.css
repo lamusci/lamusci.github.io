@@ -63,7 +63,8 @@
   text-align: center;
   font-family: IBMPlexSans-Bold;
   font-size: 50px;
-  padding: 5vh;
+  padding-top: 5vh;
+  padding-bottom: 5vh;
   line-height: 1.2;
 }
 
@@ -133,10 +134,12 @@ hr{
 
 .memberinfo {
   background-color: black;
+  padding-right: 5vw;
 }
 
 .musicianinfo {
   background-color: black;
+  padding-right: 5vw;
 }
 
 .DescriptionText {
