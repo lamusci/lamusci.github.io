@@ -28,6 +28,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.3/js/components/slider.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.3/js/components/slideshow.js"></script>
 
+
   </head>
   <body>
 
@@ -39,22 +40,24 @@
           <img style = "height:70px;" src = "img/lamusci.png">
         </div>
         <div class="uk-navbar-right">
-          <ul class="uk-navbar-nav" uk-scrollspy-nav="closest: li; scroll: true; offset: 300;">
+          <ul class="uk-navbar-nav" uk-scrollspy-nav="scroll: true; offset: 300;">
               <li>
-                <a class = "uk-visible@m" href="#events">Events</a>
+                <a id="eventsButton" class = "uk-visible@m" href="#events">Events</a>
               </li>
               <li>
-                <a class = "uk-visible@m" href="#signup">Sign Up</a>
+                <a id="signupButton" class = "uk-visible@m" href="#signup">Sign Up</a>
               </li>
               <li>
-                <a class = "uk-visible@m" href="#board">Board</a>
+                <a id="boardButton" class = "uk-visible@m" href="#board">Board</a>
               </li>
               <li>
-                <a class = "uk-visible@m" href="#contactUs">Contact Us</a>
+                <a id="contactUsButton" class = "uk-visible@m" href="#contactUs">Contact Us</a>
               </li>
-              <li>
-                <a class = "navbarToggle uk-icon-link uk-hidden@m uk-dark" style="" href="#offcanvas-flip" uk-icon="icon: menu; ratio:1.5;" uk-toggle></a>
-              </li>
+          </ul>
+          <ul class="uk-navbar-nav">
+            <li>
+              <a class = "navbarToggle uk-icon-link uk-hidden@m uk-dark" style="" href="#offcanvas-flip" uk-icon="icon: menu; ratio:1.5;" uk-toggle></a>
+            </li>
           </ul>
         </div>
       </nav>
@@ -65,7 +68,7 @@
       <h1 id="lamusci" uk-parallax="opacity:1,0.5;"> <span>LA</span> MuSci </h1>
     </div>
 <!-- Events Section -->
-    <div style="width:auto; background-color:#fff7e6; padding: 7vh;">
+    <div id="eventssection" style="width:auto; background-color:#fff7e6; padding: 7vh;">
 
       <h1 id="events" class="Title">Events</h1>
 
@@ -126,7 +129,7 @@
 
 <!-- Officers -->
 
-    <div class="officers">
+    <div id = "officers" class="officers">
       <h1 id="board" class="Title"> Board </h1>
       <hr>
 
@@ -189,7 +192,7 @@
 
 <!-- footer/contact us -->
 
-    <div class="contactUs">
+    <div id = "contactUsSection" class="contactUs">
       <h1 id="contactUs" class="Title"> Contact Us </h1>
       <hr>
       <a href="mailto:club.lamusci@gmail.com" data-rel="external"> Email Us > </a>
@@ -230,6 +233,6 @@
     </div>
 
 
-
+    <script src="js/functions.js"></script>
   </body>
 </html>
