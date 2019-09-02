@@ -51,6 +51,8 @@
 .Events {
   text-align: center;
   width: auto;
+  padding-left: 2.5vw;
+  padding-bottom: 5vh;
 }
 .Title {
   font-family: IBMPlexSans-Bold;
@@ -85,16 +87,17 @@
   font-size: 20px;
   text-align: left;
   padding-left: 5vw;
+  padding-right: 2vw;
   color: #cc5200;
 }
 
 hr{
-  position: relative;
-  display: block;
-  border-top: 1px solid #ff6600;
-  border-bottom: 1px solid #ff6600;
-  width: 50%;
-  left: 25%;
+  position:relative;
+  border: 2px solid #ff6600;
+  width: 25%;
+  left: 37.5%;
+  margin-bottom: 5vh;
+  padding:0px;
 }
 
 .event {
@@ -193,15 +196,6 @@ hr{
 
 .officers .Title {
   padding:3vh;
-}
-
-.officers hr {
-  position:relative;
-  border: 2px solid #ff6600;
-  width: 25%;
-  left: 37.5%;
-  margin-bottom: 5vh;
-  padding:0px;
 }
 
 .contactUs hr {
