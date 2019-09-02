@@ -12,13 +12,14 @@ function isInViewport(el) {
     return (vertInView && horInView);
 }
 
+
 function changeButtonBackground(element, element2, button) {
-  if (isInViewport(element) && !isInViewport(element2)) {
-    button.style.backgroundColor = "#ffcb60";
-  }
-  else {
-    button.style.backgroundColor = "#ffe1a3";
-  }
+      if (isInViewport(element) && !isInViewport(element2)) {
+        button.style.backgroundColor = "#ffcb60";
+      }
+      else {
+        button.style.backgroundColor = "#ffe1a3";
+      }
 }
 
 var events = document.getElementById('eventssection');

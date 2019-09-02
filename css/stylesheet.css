@@ -64,10 +64,13 @@
   font-family: IBMPlexSans-Bold;
   font-size: 50px;
   padding-top: 5vh;
-  padding-bottom: 5vh;
   line-height: 1.2;
 }
-
+.Time{
+  font-family: IBMPlexSans-SemiBold;
+  font-size: 20px;
+  color: #cc5200;
+}
 .EventDescription {
   text-align: left;
   font-family: IBMPlexSans-Bold;
@@ -75,6 +78,14 @@
   padding: 5vh;
   padding-left: 5vw;
   line-height: 1.2;
+}
+
+.EventDescriptionText{
+  font-family: IBMPlexSans-SemiBold;
+  font-size: 20px;
+  text-align: left;
+  padding-left: 5vw;
+  color: #cc5200;
 }
 
 hr{
@@ -88,14 +99,6 @@ hr{
 
 .event {
   border-left: 2px solid #ff6600;
-}
-
-.EventDescriptionText{
-  font-family: IBMPlexSans-SemiBold;
-  font-size: 20px;
-  text-align: left;
-  padding-left: 5vw;
-  color: #cc5200;
 }
 
 .member {
@@ -284,18 +287,14 @@ hr{
   font-family: IBMPlexSans-SemiBold !important;
 }
 
-.uk-navbar-right > a{
-  font-family: IBMPlexSans-SemiBold !important;
-  color: #282828;
-}
 
 .uk-navbar-right > ul > li > a{
   font-family: IBMPlexSans-SemiBold !important;
-  color: #282828;
+  color: black;
 }
 
-.uk-navbar > ul > li > a:hover{
-  background-color: #ffcb60;
+.uk-navbar-right > ul > li > a:hover {
+  color: #777777;
 }
 
 .uk-active > a,
