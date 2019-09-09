@@ -245,7 +245,6 @@ hr{
 .officers {
   padding-left: 10%;
   padding-right: 10%;
-  padding-bottom: 5vh;
 }
 .boardname{
   font-family: IBMPlexSans-SemiBold !important;
@@ -416,6 +415,7 @@ hr{
     padding-left: 5vw;
     padding-right: 5vw;
     padding-top: 100px;
+    padding-bottom: 5vh;
   }
 
   .navbarToggle svg{
