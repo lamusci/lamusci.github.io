@@ -109,6 +109,9 @@ hr{
   border-left: 2px solid #ff6600;
   margin-bottom: 10vh;
 }
+.event{
+  text-align: left;
+}
 
 .eventspecifics {
   margin-bottom: 10vh;
@@ -183,7 +186,20 @@ hr{
   background-color: white;
   -webkit-transition-duration: 0.5s;
 }
+.ebutton {
+  margin-left: 5vw;
+  font-family: IBMPlexSans-SemiBold;
+  font-size: 35px;
+  padding: 1%;
+  color:black;
+  background-color:#fff7e6;
+}
 
+.ebutton:hover{
+  color:white;
+  background-color: black;
+  -webkit-transition-duration: 0.5s;
+}
 .imgwrapper{
   display: inline-block;
   position: relative;
