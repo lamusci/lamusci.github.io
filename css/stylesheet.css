@@ -141,7 +141,7 @@ hr{
 }
 
 .memberimg{
-  background-image: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.7)) , url('http://www.calstatela.edu/sites/default/files/header-images/police_clery.jpg');
+  background-image: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.7)) , url('/img/police_clery.jpg');
   background-repeat: no-repeat;
   background-position:center center;
   background-size: cover;
