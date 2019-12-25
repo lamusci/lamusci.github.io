@@ -559,7 +559,7 @@ hr{
     font-size: 50px;
   }
   .Events {
-    padding: 20%;
+    padding: 15%;
   }
   #offcanvas-flip > div > ul > li > a {
     font-size: 20px;
@@ -580,5 +580,8 @@ hr{
   }
   #signup > div.musician.musicianimg.uk-width-2-5\@l.uk-width-1-1\@s > h1{
     font-size: 40px;
+  }
+  .Events {
+    padding: 20%;
   }
 }
