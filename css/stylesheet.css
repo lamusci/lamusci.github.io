@@ -75,12 +75,12 @@
 }
 .Time{
   font-family: IBMPlexSans-SemiBold;
-  font-size: 20px;
+  font-size: 25px;
   color: #cc5200;
 }
 .Location{
   font-family: IBMPlexSans-SemiBold;
-  font-size: 20px;
+  font-size: 25px;
   color: #cc5200;
 }
 .EventDescription {
@@ -91,22 +91,59 @@
   padding-left: 5vw;
   line-height: 1.2;
 }
-
+.Events {
+  padding: 10vh;
+}
+#eventssection {
+  padding-top: 5vh;
+}
+#tysection {
+  padding-top: 2vh;
+  padding-bottom: 5vh;
+}
 .EventDescriptionText{
   font-family: IBMPlexSans-SemiBold;
-  font-size: 20px;
+  font-size: 25px;
   text-align: left;
   padding-left: 5vw;
   padding-right: 2vw;
   color: #cc5200;
 }
 
+.TyDescriptionText{
+  font-family: IBMPlexSans-SemiBold;
+  text-align:center;
+  font-size: 30px;
+  padding-bottom: 5vh;
+  color: #ee7422;
+}
+
+.uk-light .uk-iconnav>.uk-active>a>svg>rect {
+  color:white;
+}
+.uk-light .uk-iconnav>.uk-active>.uk-icon {
+  background-color: rgba(0, 0, 0, 0) !important;
+}
+.uk-light .uk-iconnav>*>a>svg>rect {
+  width: 24px !important;
+  height:4px;
+}
+.uk-light .uk-iconnav>*>a>svg{
+  width: 24px;
+}
+
+#tysection {
+  margin: 5vw 7vh 5vw 7vh;
+}
+#gallery {
+  padding: 0% 5% 5% 5%;
+}
 hr{
   position:relative;
   border: 2px solid #ff6600;
   width: 25%;
   left: 37.5%;
-  margin-bottom: 5vh;
+  margin-top: 5vh;
   padding:0px;
 }
 
@@ -236,9 +273,17 @@ hr{
   width: 25%;
   left: 37.5%;
   margin-bottom: 5vh;
+  margin-top: 0vh;
   padding:0px;
 }
 
+.footer hr {
+  margin-top: 0vh;
+}
+#tysection .Title {
+  color: #FFCE00;
+  padding: 3vh;
+}
 .contactUs .Title {
   padding-bottom:3vh;
   color: white;
@@ -416,9 +461,16 @@ hr{
     font-size: 60px;
   }
 
-  .DescriptionText {
+  .DescriptionText,
+  .EventDescriptionText,
+  .Time,
+  .Location {
     font-size: 20px;
     line-height: 1.5;
+  }
+
+  .Date {
+    font-size: 40px;
   }
 
   .mbutton {
@@ -471,5 +523,62 @@ hr{
   .contactUs a:focus {
     font-size: 25px;
   }
+  #tysection {
+    margin: 0px;
+  }
+  #tysection .Title {
+    font-size: 40px;
+  }
+  .TyDescriptionText {
+    font-size: 25px;
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+  #gallery {
+    padding: 0%;
+  }
+}
+@media only screen and (max-width: 400px) {
+  #lamusci,
+  #lamusci span {
+    font-size: 90px;
+  }
+  .EventDescription {
+    font-size: 40px;
+  }
+  #events {
+    font-size: 60px;
+  }
+  .uk-navbar-left img {
+    display: none;
+  }
+  #signup > div.member.memberimg.uk-width-2-5\@l.uk-width-1-1\@s > h1{
+    font-size: 50px;
+  }
+  #signup > div.musician.musicianimg.uk-width-2-5\@l.uk-width-1-1\@s > h1{
+    font-size: 50px;
+  }
+  .Events {
+    padding: 20%;
+  }
+  #offcanvas-flip > div > ul > li > a {
+    font-size: 20px;
+    text-align: center;
+  }
+}
 
+@media only screen and (max-width: 300px) {
+  .EventDescription {
+    font-size: 30px;
+  }
+  #lamusci,
+  #lamusci span {
+    font-size: 80px;
+  }
+  #signup > div.member.memberimg.uk-width-2-5\@l.uk-width-1-1\@s > h1{
+    font-size: 40px;
+  }
+  #signup > div.musician.musicianimg.uk-width-2-5\@l.uk-width-1-1\@s > h1{
+    font-size: 40px;
+  }
 }
